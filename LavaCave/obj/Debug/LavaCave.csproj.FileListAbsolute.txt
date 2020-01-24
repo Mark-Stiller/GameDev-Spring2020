@@ -1,0 +1,7 @@
+C:\Users\Mark\source\repos\LavaCave\bin\Debug\LavaCave.exe.config
+C:\Users\Mark\source\repos\LavaCave\bin\Debug\LavaCave.exe
+C:\Users\Mark\source\repos\LavaCave\bin\Debug\LavaCave.pdb
+C:\Users\Mark\source\repos\LavaCave\obj\Debug\LavaCave.csprojAssemblyReference.cache
+C:\Users\Mark\source\repos\LavaCave\obj\Debug\LavaCave.csproj.CoreCompileInputs.cache
+C:\Users\Mark\source\repos\LavaCave\obj\Debug\LavaCave.exe
+C:\Users\Mark\source\repos\LavaCave\obj\Debug\LavaCave.pdb
