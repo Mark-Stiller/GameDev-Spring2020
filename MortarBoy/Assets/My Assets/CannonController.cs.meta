@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a44e7be4082826d4e9b201dba974a2ec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CBallPF: {fileID: 4998659668039492228, guid: 9b154682212e69547a8ec37c2a47e00e,
+      type: 3}
+  - spawnPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
