@@ -9,12 +9,14 @@ public class ExplosionController : MonoBehaviour
     Collider[] inRadius;
     Text gameEnd;
 
+    int layermask = 1<<9;
     // Start is called before the first frame update
     void Start()
     {
+        layermask = ~layermask;
         //was anything near enough to be destroyed
-        inRadius = Physics.OverlapSphere(this.transform.position, 10);
-        GameObject.FindGameObjectsWithTag("Player");
+        inRadius = Physics.OverlapSphere(transform.position, 10, layermask);
+        //GameObject.FindGameObjectsWithTag("Player");
         gameEnd = GameObject.Find("Text").GetComponent<Text>();
 
         for(int i = 0; i < inRadius.Length; i++)
@@ -22,10 +24,10 @@ public class ExplosionController : MonoBehaviour
             //destroy player, end game
             if (inRadius[i].tag == "Player")
             {
-                Destroy(inRadius[i].gameObject);
                 gameEnd.text = "Game Over!";
                 Time.timeScale = 0;
             }
+            Destroy(inRadius[i].gameObject);
         }
     }
 
